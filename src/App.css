@@ -15,12 +15,30 @@
   line-height: 10rem;
 }
 
+.latest-project-font {
+  font-size: 9rem;
+  color: black;
+  -webkit-text-stroke: 1px white;
+
+}
+
+.customHero .customImg {
+  visibility: hidden;
+}
+
+.customHero:hover .customImg {
+  visibility: visible;
+  transform: rotate3d(1, 1, 1, -20deg);
+  transition: all 0.2s linear;
+
+}
+
 .borderd-text {
   -webkit-text-stroke: 1px white;
 }
 
 .rotate {
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
 }
 
 *::-webkit-scrollbar {
