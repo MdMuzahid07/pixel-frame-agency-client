@@ -14,7 +14,7 @@ const WhatWeOffer = () => {
             {/* service cards */}
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-2 mx-auto my-20'>
                 <div class="card w-lg h-96 bg-base-100 image-full">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <figure><img src="https://api.lorem.space/image/face?hash=3174" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Android/IOS Solution</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -24,7 +24,7 @@ const WhatWeOffer = () => {
                     </div>
                 </div>
                 <div class="card w-lg h-96 bg-base-100 image-full">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <figure><img src="https://api.lorem.space/image/face?hash=3174" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Web Solution</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
@@ -34,7 +34,7 @@ const WhatWeOffer = () => {
                     </div>
                 </div>
                 <div class="card w-lg h-96 bg-base-100 image-full">
-                    <figure><img src="https://api.lorem.space/image/shoes?w=400&h=225" alt="Shoes" /></figure>
+                    <figure><img src="https://api.lorem.space/image/face?hash=3174" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">Custom Solution</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
