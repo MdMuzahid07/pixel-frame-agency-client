@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className='bg-image py-20'>
+        <div className='bg-image md:py-20'>
             <div className='flex justify-center'>
                 <div className='lg:flex justify-center bg-svg items-center'>
                     <div>
@@ -22,6 +22,7 @@ const Header = () => {
                     <p className='rotate -mx-10 my-48'>+000 7777 777</p>
                 </div>
             </div>
+            <img className='w-24 mx-auto' src="https://i.ibb.co/NCbBp0z/Scroll-Down-white.gif" alt="" />
         </div>
     );
 };
