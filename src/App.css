@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.bg-image {
+  background-image: url('https://i.ibb.co/FHXt1JC/notebooks-apple-inc-macbook-laptop-wallpaper-preview.jpg');
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-font {
+  font-size: 9rem;
+  line-height: 10rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.rotate {
+  transform: rotate(-90deg)
+}
+
+*::-webkit-scrollbar {
+  width: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(26, 26, 26);
+  /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(97, 97, 97);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid rgb(26, 26, 26);
+  /* creates padding around scroll thumb */
+}
+
+
+@media screen and (max-width:700px) {
+  .header-font {
+    font-size: 3rem;
+    line-height: 4rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .bg-image {
+    background-size: 100vh;
   }
 }
