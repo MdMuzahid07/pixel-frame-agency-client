@@ -12,14 +12,12 @@
 
 .running-font {
   font-size: 7rem;
-  line-height: 10rem;
 }
 
 .latest-project-font {
   font-size: 9rem;
-  color: black;
-  -webkit-text-stroke: 1px white;
-
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
 }
 
 .customHero .customImg {
@@ -33,8 +31,9 @@
 
 }
 
-.borderd-text {
-  -webkit-text-stroke: 1px white;
+.bordered-text {
+  -webkit-text-stroke: 1px #ffffff;
+  -webkit-text-fill-color: transparent;
 }
 
 .rotate {

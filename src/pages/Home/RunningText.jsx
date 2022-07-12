@@ -8,7 +8,7 @@ const RunningText = () => {
             </marquee>
 
             <marquee behavior="scroll" direction="left" scrollamount="5">
-                <h2 className='running-font borderd-text text-black'>Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _Marketing _ SEO _ eCommerce</h2>
+                <h2 className='running-font bordered-text'>Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _ Marketing _ SEO _ eCommerce _Marketing _ SEO _ eCommerce</h2>
             </marquee>
         </div>
     );
