@@ -14,6 +14,10 @@
   font-size: 7rem;
 }
 
+.transition-text {
+  transition: all 0.7s linear;
+}
+
 .latest-project-font {
   font-size: 9rem;
   -webkit-text-stroke: 1px #ffffff;
