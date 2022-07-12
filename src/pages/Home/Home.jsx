@@ -1,5 +1,6 @@
 import React from 'react';
 import DiscoverOurAward from './DiscoverOurAward';
+import Fun_facts from './Fun_facts';
 import Header from './Header';
 import LatestProjects from './LatestProjects';
 import OurProfessionals from './OurProfessionals';
@@ -17,6 +18,7 @@ const Home = () => {
             <LatestProjects />
             <hr />
             <OurProfessionals />
+            <Fun_facts />
         </div>
     );
 };
