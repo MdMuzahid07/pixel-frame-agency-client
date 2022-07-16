@@ -5,6 +5,7 @@ import Header from './Header';
 import LatestProjects from './LatestProjects';
 import OurProfessionals from './OurProfessionals';
 import RunningText from './RunningText';
+import Testimonial from './Testimonial';
 import WhatWeOffer from './WhatWeOffer';
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <hr />
             <OurProfessionals />
             <Fun_facts />
+            <Testimonial />
         </div>
     );
 };
