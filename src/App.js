@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Services from './pages/Services/Services';
 import ScrollToTop from "react-scroll-to-top";
+import Error_page from './pages/Error_page';
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <ScrollToTop smooth />
       <Navbar >
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/*" element={<Error_page />} />
         </Routes>
         <Footer />
       </Navbar>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ children }) => {
     return (
-        <div  className='lg:max-w-screen-xl	mx-auto'>
+        <div className='lg:max-w-screen-xl	mx-auto'>
             <div class="drawer">
                 <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
                 <div class="drawer-content flex flex-col">
@@ -15,7 +15,7 @@ const Navbar = ({ children }) => {
                             <ul class="menu menu-horizontal">
                                 {/* <!-- Navbar menu content here --> */}
                                 <li>
-                                    <Link to='/home'>Home</Link>
+                                    <Link to='/'>Home</Link>
                                 </li>
                                 <li>
                                     <Link to='/services'>Our Services</Link>
