@@ -3,6 +3,7 @@ import Fun_facts from '../Home/Fun_facts';
 import OurProfessionals from '../Home/OurProfessionals';
 import RunningText from '../Home/RunningText';
 import Hero_Section from './Hero_Section';
+import Our_Skills from './Our_Skills';
 
 const About = () => {
     return (
@@ -13,6 +14,7 @@ const About = () => {
 
             <Hero_Section />
             <Fun_facts />
+            <Our_Skills />
             <RunningText />
             <OurProfessionals />
         </div>
