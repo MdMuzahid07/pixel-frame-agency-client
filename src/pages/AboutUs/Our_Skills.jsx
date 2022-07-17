@@ -3,7 +3,7 @@ import React from 'react';
 const Our_Skills = () => {
     return (
         <div className='grid lg:grid-cols-2 my-20'>
-            <img className='rounded-xl p-4' src="https://i.ibb.co/kXpkgvJ/Untitled-design.png" alt="" />
+            <img className='m-4 rounded-xl border' src="https://i.ibb.co/kXpkgvJ/Untitled-design.png" alt="" />
             <div>
                 <div>
                     <h2>{`<> UI/UX </>`}</h2>
