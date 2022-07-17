@@ -9,7 +9,7 @@ const Navbar = ({ children }) => {
                 <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
                 <div class="drawer-content flex flex-col">
                     {/* <!-- Navbar --> */}
-                    <div class="w-full navbar sticky bg-black top-0 z-100">
+                    <div class="w-full navbar sticky z-20 bg-black top-0 z-100">
                         <h2 class="text-3xl text-white font-bold px-2 md:mx-10">Pixel Frame</h2>
                         <div class="flex-none font-bold text-white hidden lg:block">
                             <ul class="menu menu-horizontal">

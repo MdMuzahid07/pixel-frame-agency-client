@@ -6,11 +6,13 @@ const Services_card = () => {
             <div className='grid lg:grid-cols-3 md:grid-cols-3 gap-4 text-slate-400'>
                 <div className='sitcky'>
                     <h2 className='text-3xl font-bold text-slate-700'>Our Services</h2>
-                    <h2 className='text-5xl font-bold text-white my-4'>
-                        Giving Your
-                        Business Some
+                    <h2 className='text-4xl font-bold text-slate-300 my-7'>
+                        Giving Your <br />
+                        Business Some <br />
                         Great Ideas
                     </h2>
+                    <hr />
+                    <button className='btn btn-slate-700 rounded-none my-7'>More Services</button>
                 </div>
 
                 <div>
