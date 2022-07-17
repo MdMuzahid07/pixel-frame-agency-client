@@ -19,9 +19,7 @@ const Services_card = () => {
                             <h2 class="card-title">{`<> 01 </>`}</h2>
                             <hr />
                             <p className="text-2xl">UI/UX Experience</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
 
@@ -29,10 +27,8 @@ const Services_card = () => {
                         <div class="card-body">
                             <h2 class="card-title">{`<> 02 </>`}</h2>
                             <hr />
-                            <p className="text-2xl">If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p className="text-2xl">Andorid Development</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
 
@@ -40,10 +36,8 @@ const Services_card = () => {
                         <div class="card-body">
                             <h2 class="card-title">{`<> 03 </>`}</h2>
                             <hr />
-                            <p className="text-2xl">If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p className="text-2xl">IOS Development</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
                 </div>
@@ -53,10 +47,8 @@ const Services_card = () => {
                         <div class="card-body">
                             <h2 class="card-title">{`<> 04 </>`}</h2>
                             <hr />
-                            <p className="text-2xl">If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p className="text-2xl">Digital Marketing</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
 
@@ -64,10 +56,8 @@ const Services_card = () => {
                         <div class="card-body">
                             <h2 class="card-title">{`<> 05 </>`}</h2>
                             <hr />
-                            <p className="text-2xl">If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p className="text-2xl">E-commerce Development</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
 
@@ -75,10 +65,8 @@ const Services_card = () => {
                         <div class="card-body">
                             <h2 class="card-title">{`<> 06 </>`}</h2>
                             <hr />
-                            <p className="text-2xl">If a dog chews shoes whose shoes does he choose?</p>
-                            <div class="card-actions justify-end">
-                                <button class="btn btn-slate-900 rounded-none">Buy Now</button>
-                            </div>
+                            <p className="text-2xl">Product Design</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat vel quam natus odit excepturi officiis inventore eveniet earum accusamus consequatur vitae magni, aspernatur odio, doloremque</p>
                         </div>
                     </div>
                 </div>
