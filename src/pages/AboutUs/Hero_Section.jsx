@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero_Section = () => {
     return (
-        <section>
+        <section className='my-20'>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="https://images.unsplash.com/photo-1584438784894-089d6a62b8fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwcGhvbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="rounded-lg shadow-2xl" />

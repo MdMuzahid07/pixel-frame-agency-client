@@ -41,7 +41,7 @@ const Navbar = ({ children }) => {
                 </div>
                 <div class="drawer-side">
                     <label for="my-drawer-3" class="drawer-overlay"></label>
-                    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 rounded-xl">
+                    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 rounded-r-lg">
                         {/* <!-- Sidebar content here --> */}
                         <li>
                             <Link to='/home'>Home</Link>
